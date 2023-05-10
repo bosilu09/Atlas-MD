@@ -67,18 +67,18 @@ Don't forget to change "charlist.js" and "setchar.js" insdide "Commands\Mods\"  
 
 
 global.charID0 = {
-    botName : "Atlas MD",
+    botName : "NOVA MD",
     botVideo : "https://graph.org/file/e3b2ee218b98b8679bf98.mp4",
-    botImage1 : "https://i.imgur.com/MClOeqe.jpeg",
-    botImage2 : "https://i.imgur.com/MClOeqe.jpeg",
-    botImage3 : "https://i.imgur.com/MClOeqe.jpeg",
-    botImage4 : "https://i.imgur.com/MClOeqe.jpeg",
-    botImage5 : "https://i.imgur.com/MClOeqe.jpeg",
-    botImage6 : "https://i.imgur.com/MClOeqe.jpeg",
+    botImage1 : "https://graph.org/file/27054bdb82718a29de80c.png",
+    botImage2 : "https://graph.org/file/27054bdb82718a29de80c.png",
+    botImage3 : "https://graph.org/file/27054bdb82718a29de80c.png",
+    botImage4 : "https://graph.org/file/27054bdb82718a29de80c.png",
+    botImage5 : "https://graph.org/file/27054bdb82718a29de80c.png",
+    botImage6 : "https://graph.org/file/27054bdb82718a29de80c.png",
 }
 
 global.charID1 = {
-  botName : "Power MD",
+  botName : "NOVA MD",
   botVideo : "https://graph.org/file/b402e2d4718992187787b.mp4",
   botImage1 : "https://wallpapercave.com/wp/wp11253614.jpg",
   botImage2 : "https://wallpapercave.com/wp/wp9413488.jpg",
@@ -89,7 +89,7 @@ global.charID1 = {
 }
 
 global.charID2 = {
-  botName : "Makima MD",
+  botName : "NOVAMD",
   botVideo : "https://graph.org/file/de402b3a47195735ac60f.mp4",
   botImage1 : "https://images5.alphacoders.com/126/1264439.jpg",
   botImage2 : "https://images8.alphacoders.com/122/1227171.jpg",
@@ -100,7 +100,7 @@ global.charID2 = {
 }
 
 global.charID3 = {
-  botName : "Denji MD",
+  botName : "NOVA MD",
   botVideo : "https://graph.org/file/0c48e29b402c76ae6028b.mp4",
   botImage1 : "https://i0.wp.com/metagalaxia.com.br/wp-content/uploads/2022/11/Chainsaw-Man-Denji-e-Power.webp?resize=1068%2C601&ssl=1",
   botImage2 : "https://images.alphacoders.com/128/1284967.jpg",
@@ -111,7 +111,7 @@ global.charID3 = {
 }
 
 global.charID4 = {
-  botName : "Zero Two",
+  botName : "NOVA MD",
   botVideo : "https://graph.org/file/04af19c8e2a1a1d1a31b7.mp4",
   botImage1 : "https://images3.alphacoders.com/949/949253.jpg",
   botImage2 : "https://images7.alphacoders.com/898/898638.jpg",
@@ -122,7 +122,7 @@ global.charID4 = {
 }
 
 global.charID5 = {
-  botName : "Chika MD",
+  botName : "NOVA MD",
   botVideo : "https://graph.org/file/140e1f2488a005a889b26.mp4",
   botImage1 : "https://images4.alphacoders.com/100/1002134.png",
   botImage2 : "https://images4.alphacoders.com/100/1002714.jpg",
@@ -133,7 +133,7 @@ global.charID5 = {
 }
 
 global.charID6 = {
-  botName : "Miku MD",
+  botName : "NOVA MD",
   botVideo : "https://graph.org/file/c37d336b8cfad543fd9c8.mp4",
   botImage1 : "https://wallpapercave.com/wp/wp10524580.jpg",
   botImage2 : "https://wallpapercave.com/wp/wp4828029.jpg",
@@ -144,7 +144,7 @@ global.charID6 = {
 }
 
 global.charID7 = {
-  botName : "Marin MD",
+  botName : "NOVA MD",
   botVideo : "https://graph.org/file/cf5abde596ccbd6c92c6f.mp4",
   botImage1 : "https://images2.alphacoders.com/125/1257915.jpg",
   botImage2 : "https://wallpapercave.com/wp/wp10472356.png",
@@ -155,7 +155,7 @@ global.charID7 = {
 }
 
 global.charID8 = {
-  botName : "Ayanokoji MD",
+  botName : "NOVA MD",
   botVideo : "https://graph.org/file/ae503b0700b345816f4d3.mp4",
   botImage1 : "https://wallpapers.com/images/file/kiyotaka-ayanokoji-in-pink-qs33qgqm79ccsq7n.jpg",
   botImage2 : "https://wallpapercave.com/wp/wp6530733.jpg",
@@ -166,7 +166,7 @@ global.charID8 = {
 }
 
 global.charID9 = {
-  botName : "Ruka MD",
+  botName : "NOVA MD",
   botVideo : "https://graph.org/file/b4fe227829affab6bd758.mp4",
   botImage1 : "https://wallpapercave.com/wp/wp8228630.jpg",
   botImage2 : "https://wallpapercave.com/uwp/uwp1175286.jpeg",
