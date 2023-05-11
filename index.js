@@ -27,10 +27,11 @@
 /      With all of our hard work and defication you can enjoy this awesome bot!     /  
 /                                                                                   / 
 /----------------------------------------------------------------------------------*/
-
+console.log("Verifying Config File 🐱‍👤")
 require("./config.js");
+console.log("Verifying Bot Core 🐱‍👤")
 require("./Core.js");
-
+console.log("Verifying Precaution Methods 🐱‍👤")
 const pino = require('pino');
 const {
     default: MikuConnect,
@@ -47,9 +48,11 @@ const {
     jidDecode,
     proto
 } = require("@adiwajshing/baileys");
-
+console.log("Connecting Tools 🐱‍👤")
 const fs = require("fs");
+console.log("FS connected 🐱‍👤")
 const chalk = require("chalk");
+console.log("Chalk connected 🐱‍👤")
 const path = require("path");
 const figlet = require('figlet');
 const FileType = require('file-type');
@@ -123,7 +126,7 @@ const readCommands = () => {
     }
 }
 
-
+console.log("All tools connected 🐱‍👤")
 readCommands()
 const PORT = port;
 const app = express();
@@ -143,16 +146,16 @@ async function startMiku() {
         clearState,
     } = await getAuthFromDatabase()
 
-    console.log(color(figlet.textSync('Atlas Bot MD', {
+    console.log(color(figlet.textSync('NOVA Bot MD', {
         font: 'Pagga',
         horizontalLayout: 'default',
         vertivalLayout: 'default',
         width: 80,
         whitespaceBreak: true
-    }), 'yellow'))
+    }), 'cyan'))
 
-    console.log(color('\nHello, I am Fantox, the main developer of this bot.\n\nThanks for using: Atlas MD made by my Team Atlas.', 'aqua'))
-    console.log(color('\nYou can follow me on GitHub: FantoX001\n\n', 'aqua'))
+    console.log(color('\nHello, I am Bosilu (Founder of Team NOVA), the main developer of this bot.\n\nThanks for using:NOVA MD made by my Team NOVA.', 'aqua'))
+    console.log(color('\nYou can follow me on GitHub: bosilu09\n\n', 'aqua'))
 
 
 
@@ -185,13 +188,13 @@ async function startMiku() {
         } = update
         status = connection;
         if (connection) {
-            await console.info(`Atlas MD Server Status => ${connection}`);
+            await console.info(`NOVA MD Server Status => ${connection}`);
           }
 
         if (connection === 'close') {
             let reason = new Boom(lastDisconnect?.error)?.output.statusCode
             if (reason === DisconnectReason.badSession) {
-                console.log(`Bad Session File, Please Delete Session and Scan Again`);
+                console.log(`Bad Session ID , Try New SESSION_ID Value`);
                 process.exit();
             } else if (reason === DisconnectReason.connectionClosed) {
                 console.log("Connection closed, reconnecting....");
@@ -200,11 +203,11 @@ async function startMiku() {
                 console.log("Connection Lost from Server, reconnecting...");
                 startMiku();
             } else if (reason === DisconnectReason.connectionReplaced) {
-                console.log("Connection Replaced, Another New Session Opened, Please Close Current Session First");
+                console.log("Connection Replaced, Another New Session Opened, Please Close Current Session First or Try New SESSION_ID");
                 process.exit();
             } else if (reason === DisconnectReason.loggedOut) {
                 clearState()
-                console.log(`Device Logged Out, Please Delete Session and Scan Again.`);
+                console.log(`Device Logged Out, Please Enter new Value for SESSION_ID and Scan Again.`);
                 process.exit();
             } else if (reason === DisconnectReason.restartRequired) {
                 console.log("Restart Required, Restarting...");
