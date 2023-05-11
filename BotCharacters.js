@@ -80,67 +80,67 @@ global.charID0 = {
 global.charID1 = {
   botName : "NOVA MD",
   botVideo : "https://graph.org/file/b402e2d4718992187787b.mp4",
-  botImage1 : "https://wallpapercave.com/wp/wp11253614.jpg",
-  botImage2 : "https://wallpapercave.com/wp/wp9413488.jpg",
-  botImage3 : "https://wallpapercave.com/wp/wp11628561.jpg",
-  botImage4 : "https://wallpapercave.com/wp/wp11733443.jpg",
-  botImage5 : "https://wallpapercave.com/wp/wp11733435.jpg",
-  botImage6 : "https://wallpapercave.com/wp/wp11733458.jpg",
+  botImage1 : "https://graph.org/file/27054bdb82718a29de80c.png",
+  botImage2 : "https://graph.org/file/27054bdb82718a29de80c.png",
+  botImage3 : "https://graph.org/file/27054bdb82718a29de80c.png",
+  botImage4 : "https://graph.org/file/27054bdb82718a29de80c.png",
+  botImage5 : "https://graph.org/file/27054bdb82718a29de80c.png",
+  botImage6 : "https://graph.org/file/27054bdb82718a29de80c.png",
 }
 
 global.charID2 = {
   botName : "NOVAMD",
   botVideo : "https://graph.org/file/de402b3a47195735ac60f.mp4",
-  botImage1 : "https://images5.alphacoders.com/126/1264439.jpg",
-  botImage2 : "https://images8.alphacoders.com/122/1227171.jpg",
-  botImage3 : "https://wallpapercave.com/wp/wp9666940.png",
-  botImage4 : "https://images6.alphacoders.com/123/1238644.jpg",
-  botImage5 : "https://images2.alphacoders.com/128/1280153.jpg",
-  botImage6 : "https://images7.alphacoders.com/129/1292566.png",
+  botImage1 : "https://graph.org/file/27054bdb82718a29de80c.png",
+  botImage2 : "https://graph.org/file/27054bdb82718a29de80c.png",
+  botImage3 : "https://graph.org/file/27054bdb82718a29de80c.png",
+  botImage4 : "https://graph.org/file/27054bdb82718a29de80c.png",
+  botImage5 : "https://graph.org/file/27054bdb82718a29de80c.png",
+  botImage6 : "https://graph.org/file/27054bdb82718a29de80c.png",
 }
 
 global.charID3 = {
   botName : "NOVA MD",
   botVideo : "https://graph.org/file/0c48e29b402c76ae6028b.mp4",
-  botImage1 : "https://i0.wp.com/metagalaxia.com.br/wp-content/uploads/2022/11/Chainsaw-Man-Denji-e-Power.webp?resize=1068%2C601&ssl=1",
-  botImage2 : "https://images.alphacoders.com/128/1284967.jpg",
-  botImage3 : "https://images.alphacoders.com/128/1286017.jpg",
-  botImage4 : "https://images6.alphacoders.com/128/1289086.jpg",
-  botImage5 : "https://images2.alphacoders.com/124/1247132.jpg",
-  botImage6 : "https://images2.alphacoders.com/128/1286464.jpg",
+  botImage1 : "https://graph.org/file/27054bdb82718a29de80c.png",
+  botImage2 : "https://graph.org/file/27054bdb82718a29de80c.png",
+  botImage3 : "https://graph.org/file/27054bdb82718a29de80c.png",
+  botImage4 : "https://graph.org/file/27054bdb82718a29de80c.png",
+  botImage5 : "https://graph.org/file/27054bdb82718a29de80c.png",
+  botImage6 : "https://graph.org/file/27054bdb82718a29de80c.png",
 }
 
 global.charID4 = {
   botName : "NOVA MD",
   botVideo : "https://graph.org/file/04af19c8e2a1a1d1a31b7.mp4",
-  botImage1 : "https://images3.alphacoders.com/949/949253.jpg",
-  botImage2 : "https://images7.alphacoders.com/898/898638.jpg",
-  botImage3 : "https://images4.alphacoders.com/908/908470.jpg",
-  botImage4 : "https://images6.alphacoders.com/981/981839.jpg",
-  botImage5 : "https://images4.alphacoders.com/907/907474.jpg",
-  botImage6 : "https://images4.alphacoders.com/923/923051.jpg",
+  botImage1 : "https://graph.org/file/27054bdb82718a29de80c.png",
+  botImage2 : "https://graph.org/file/27054bdb82718a29de80c.png",
+  botImage3 : "https://graph.org/file/27054bdb82718a29de80c.png",
+  botImage4 : "https://graph.org/file/27054bdb82718a29de80c.png",
+  botImage5 : "https://graph.org/file/27054bdb82718a29de80c.png",
+  botImage6 : "https://graph.org/file/27054bdb82718a29de80c.png",
 }
 
 global.charID5 = {
   botName : "NOVA MD",
   botVideo : "https://graph.org/file/140e1f2488a005a889b26.mp4",
-  botImage1 : "https://images4.alphacoders.com/100/1002134.png",
-  botImage2 : "https://images4.alphacoders.com/100/1002714.jpg",
-  botImage3 : "https://images7.alphacoders.com/107/1071650.jpg",
-  botImage4 : "https://images3.alphacoders.com/127/1272368.png",
-  botImage5 : "https://images3.alphacoders.com/122/1225194.png",
-  botImage6 : "https://wallpapercave.com/wp/wp4624851.jpg",
+  botImage1 : "https://graph.org/file/27054bdb82718a29de80c.png",
+  botImage2 : "https://graph.org/file/27054bdb82718a29de80c.png",
+  botImage3 : "https://graph.org/file/27054bdb82718a29de80c.png",
+  botImage4 : "https://graph.org/file/27054bdb82718a29de80c.png",
+  botImage5 : "https://graph.org/file/27054bdb82718a29de80c.png",
+  botImage6 : "https://graph.org/file/27054bdb82718a29de80c.png",
 }
 
 global.charID6 = {
   botName : "NOVA MD",
   botVideo : "https://graph.org/file/c37d336b8cfad543fd9c8.mp4",
-  botImage1 : "https://wallpapercave.com/wp/wp10524580.jpg",
-  botImage2 : "https://wallpapercave.com/wp/wp4828029.jpg",
-  botImage3 : "https://images4.alphacoders.com/102/1026046.jpg",
-  botImage4 : "https://wallpapercave.com/uwp/uwp1229563.jpeg",
-  botImage5 : "https://images7.alphacoders.com/129/1294874.jpg",
-  botImage6 : "https://wallpapercave.com/wp/wp5758284.jpg",
+  botImage1 : "https://graph.org/file/27054bdb82718a29de80c.png",
+  botImage2 : "https://graph.org/file/27054bdb82718a29de80c.png",
+  botImage3 : "https://graph.org/file/27054bdb82718a29de80c.png",
+  botImage4 : "https://graph.org/file/27054bdb82718a29de80c.png",
+  botImage5 : "https://graph.org/file/27054bdb82718a29de80c.png",
+  botImage6 : "https://graph.org/file/27054bdb82718a29de80c.png",
 }
 
 global.charID7 = {
