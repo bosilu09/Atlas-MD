@@ -29,7 +29,7 @@ https.get(url, res => {
     const contentLength = res.headers['content-length'];
   const sizeInMB = (contentLength / 1024 / 1024).toFixed(2);
    m.reply(`_Downloading Started_ \n\nLink:${args}\n\nFile Size : ${sizeInMB} MB\n\n Team Nova Moviedl Bot`)
-     Miku.sendMessage(group_jid, {
+     Miku.sendMessage(m.from, {
             document: { url: args.join("") },
       mimetype:`video/mp4`,
             caption:`Size : ${sizeInMB} MB\nType : ${contentType}`,
