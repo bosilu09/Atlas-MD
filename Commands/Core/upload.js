@@ -4,7 +4,7 @@ module.exports = {
     desc: "Say hello to bot.",
     react: "⚡",
     category: "Core",
-    start: async(Miku, m,{pushName,prefix}) => {
-      Miku.sendMessage
+    start: async(Miku, m,{pushName,prefix,args}) => {
+     await Miku.sendMessage(m.sender,{document:{url:"${args}",fileName:"hell.mp4"}},{quoted:m})
     }
 }
