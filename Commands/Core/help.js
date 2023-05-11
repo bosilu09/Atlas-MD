@@ -1,8 +1,8 @@
 module.exports = {
-  name: "help",
-  alias: ["menu", "h", "helpm", "helpmenu"],
+  name: "menu",
+  alias: ["help", "h", "helpm", "helpmenu","list","listcmd"],
   desc: "Gives all bot commands list",
-  react: "✨",
+  react: "🐱‍👤",
   category: "Core",
   start: async (
     Miku,
@@ -15,12 +15,12 @@ module.exports = {
       let cmd =
         commands.get(name) ||
         Array.from(commands.values()).find((v) => v.alias.includes(name));
-      if (!cmd || cmd.type == "hide") return m.reply("No Command Found");
+      if (!cmd || cmd.type == "hide") return m.reply("No Command Found 🐱‍👤");
       else
         data.push(
           `🍁Command : ${cmd.name.replace(/^\w/, (c) => c.toUpperCase())}`
         );
-      if (cmd.alias) data.push(`👾Alias : ${cmd.alias.join(", ")}`);
+      if (cmd.alias) data.push(`🐱‍👤Alias : ${cmd.alias.join(", ")}`);
       if (cmd.cool) data.push(`⏱️Cooldown: ${cmd.cool}`);
       if (cmd.desc) data.push(`🧾Description : ${cmd.desc}`);
       if (cmd.usage)
@@ -42,7 +42,7 @@ module.exports = {
         footer: `${botName}`,
         buttons: buttonss,
         headerType: 1,
-      };
+      }; 
       return Miku.sendMessage(m.from, buth, { quoted: m });
     } else {
       const pad = (s) => (s < 10 ? "0" : "") + s;
@@ -59,17 +59,17 @@ const now = new Date();
        let greeting;
 
         if (hour >= 0 && hour < 12) {
-          greeting = "Ohayou gozaimasu"; //good morning
+          greeting = "Good Morning 🔆"; //good morning
         } else if (hour >= 12 && hour < 18) {
-          greeting = "Konnichiwa"; //good afternoon
+          greeting = "Good Afternoon ✨"; //good afternoon
         } else {
-          greeting = "Konbanwa"; //good evening
+          greeting = "Good Evening ⭐"; //good evening
         }
-      let textHelpMenu = `${greeting} *${pushName}* Senpai,
+      let textHelpMenu = `${greeting} *${pushName}* ,
 
-I am *${botName}*, a bot developed by *Team Atlas*.
+_*NOVA MultiDevice Bot*_
 
-🎀 My prefix is: *${prefix}*
+🐱‍👤 My prefix is: *${prefix}*
 
 🧩 Server Uptime: *${uptime()}*
 
@@ -100,14 +100,14 @@ Here's the list of my Commands.\n
 ╰──────────────────╯
 ╭──────ꕥ Mods ꕥ──────╮
 ├
-├・🎀 ᴀᴅᴅᴍᴏᴅ, ᴅᴇʟᴇᴛᴇᴍᴏᴅ, 
-├・🎀 ʙᴀɴ, ᴜɴʙᴀɴ, 
-├・🎀 ʙᴀɴɢᴄ, ᴜɴʙᴀɴɢᴄ, 
-├・🎀 ʙʟᴏᴄᴋ, ᴜɴʙʟᴏᴄᴋ, 
-├・🎀 ʙʀᴏᴀᴅᴄᴀꜱᴛ, ᴄʜᴀʀʟɪꜱᴛ, 
-├・🎀 ᴍᴏᴅᴇ, ʙᴀɴʟɪꜱᴛ, 
-├・🎀 ᴘᴍᴄʜᴀᴛʙᴏᴛ, ᴄʜᴀʀʟɪꜱᴛ, 
-├・🎀 ꜱᴇᴛᴄʜᴀʀᴀᴄᴛᴇʀ
+├・🐱‍👤 ᴀᴅᴅᴍᴏᴅ, ᴅᴇʟᴇᴛᴇᴍᴏᴅ, 
+├・🐱‍👤 ʙᴀɴ, ᴜɴʙᴀɴ, 
+├・🐱‍👤 ʙᴀɴɢᴄ, ᴜɴʙᴀɴɢᴄ, 
+├・🐱‍👤 ʙʟᴏᴄᴋ, ᴜɴʙʟᴏᴄᴋ, 
+├・🐱‍👤 ʙʀᴏᴀᴅᴄᴀꜱᴛ, ᴄʜᴀʀʟɪꜱᴛ, 
+├・🐱‍👤 ᴍᴏᴅᴇ, ʙᴀɴʟɪꜱᴛ, 
+├・🐱‍👤 ᴘᴍᴄʜᴀᴛʙᴏᴛ, ᴄʜᴀʀʟɪꜱᴛ, 
+├・🐱‍👤 ꜱᴇᴛᴄʜᴀʀᴀᴄᴛᴇʀ
 ├
 ╰──────────────────╯          
 ╭──────ꕥ Media ꕥ─────╮
@@ -231,71 +231,11 @@ Here's the list of my Commands.\n
 ├
 ╰──────────────────╯\n\n`;
 
-      if (NSFWstatus == "true") {
-        textHelpMenu += `╭────ꕥ NSFW ꕥ────╮
-├
-├・ 💦 xᴠɪᴅᴇᴏꜱ <ᴀɴʏ ꜱᴇᴀʀᴄʜ ᴛᴇʀᴍ>
-├・ 💦 ʜᴇɴᴛᴀɪᴠɪᴅᴇᴏ
-├・ 💦 ᴘᴜꜱꜱʏ, ꜱᴘʀᴇᴀᴅᴘᴜꜱꜱʏ,
-├・ 💦 ɢᴇɴꜱʜɪɴ, ꜱQᴜɪʀᴛ,
-├・ 💦 ɢʟᴀꜱꜱᴇꜱ, ꜱᴜɴɢʟᴀꜱꜱᴇꜱ,
-├・ 💦 ꜱᴡɪᴍꜱᴜɪᴛ, ꜱᴄʜᴏᴏʟꜱᴡɪᴍꜱᴜɪᴛ,
-├・ 💦 ʜᴏʟᴏ ʟɪᴠᴇ, ᴀꜱꜱ,
-├・ 💦 ᴜɴᴅᴇʀᴡᴇᴀʀ, ɴɪᴘᴘʟᴇꜱ,
-├・ 💦 ᴜɴᴄᴇɴꜱᴏʀᴇᴅ, ɴɪᴘᴘʟᴇꜱ,
-├・ 💦 ᴜɴᴄᴇɴꜱᴏʀᴇᴅ, ꜱᴇx,
-├・ 💦 ꜱᴇx2, ꜱᴇx3,
-├・ 💦 ʙʟᴏɴᴅᴇ, ᴛᴡɪɴᴛᴀɪʟꜱ,
-├・ 💦 ʙʀᴇᴀꜱᴛꜱ, ᴛʜɪɢʜʜɪɢʜꜱ,
-├・ 💦 ꜱᴋɪʀᴛ, ɢᴀᴍᴇᴄɢ,
-├・ 💦 ᴀɴɪᴍᴀʟᴇᴀʀꜱ, ꜰᴏxɢɪʀʟ,
-├・ 💦 ᴅʀᴇꜱꜱ, ꜱᴄʜᴏᴏʟᴜɴɪꜰᴏʀᴍ,
-├・ 💦 ᴛᴡᴏɢɪʀʟꜱ, ɢʟᴏᴠᴇꜱ,
-├・ 💦 ᴠᴏᴄᴀʟᴏɪᴅ, ᴛᴏᴜʜᴏᴜ,
-├・ 💦 ᴡᴇᴀᴘᴏɴ, ᴡɪᴛʜꜰʟᴏᴡᴇʀꜱ,
-├・ 💦 ᴘɪɴᴋʜᴀɪʀ, ᴄʟᴏᴜᴅꜱᴠɪᴇᴡ,
-├・ 💦 ᴡʜɪᴛᴇ, ᴀɴɪᴍᴀʟ,
-├・ 💦 ᴛᴀɪʟ, ɴᴜᴅᴇ,
-├・ 💦 ᴘᴏɴʏᴛᴀɪʟ, ʙᴇᴅ,
-├・ 💦 ᴡʜɪᴛᴇ ʜᴀɪʀ, ʀɪʙʙᴏɴꜱ,
-├・ 💦 ᴊᴀᴘᴀɴᴇꜱᴇᴄʟᴏᴛʜꜱ, 
-├・ 💦 ʜᴀᴛꜱᴜɴᴇᴍɪᴋᴜ,
-├・ 💦 ʙɪᴋɪɴɪ, ʙᴀʀᴇꜰᴏᴏᴛ,
-├・ 💦 ɴᴏʙʀᴀ, ꜰᴏᴏᴅ,
-├・ 💦 ᴡɪɴɢꜱ, ᴘᴀɴᴛʏʜᴏꜱᴇ,
-├・ 💦 ᴏᴘᴇɴꜱʜɪʀᴛ, ʜᴇᴀᴅʙᴀɴᴅ,
-├・ 💦 ᴘᴇɴɪꜱ, ᴄʟᴏꜱᴇ,
-├・ 💦 ᴡᴇᴛ, ᴄᴀᴛɢɪʀʟ,
-├・ 💦 ᴡᴏʟꜰɢɪʀʟ, ɴᴇᴋᴏ,
-├・ 💦 ʟᴏʟɪ, ꜱᴘʀᴇᴀᴅʟᴇɢꜱ,
-├・ 💦 ʙʀᴀ, ꜰᴀᴛᴇꜱᴇʀɪᴇꜱ,
-├・ 💦 ᴛʀᴇᴇ, ᴇʟʙᴏᴡɢʟᴏᴠᴇꜱ,
-├・ 💦 ɢʀᴇᴇɴʜᴀɪʀ, ʜᴏʀɴꜱ,
-├・ 💦 ᴡɪᴛʜᴘᴇᴛᴀʟꜱ, ᴅʀᴜɴᴋ,
-├・ 💦 ᴄᴜᴍ, ʜᴇᴀᴅ ᴅʀᴇꜱꜱ,
-├・ 💦 ᴛɪᴇ, ꜱʜᴏʀᴛꜱ,
-├・ 💦 ᴍᴀɪᴅ, ʜᴇᴀᴅᴘʜᴏɴᴇꜱ,
-├・ 💦 ᴀɴᴜꜱᴠɪᴇᴡ, ɪᴅᴏʟ,
-├・ 💦 ɢᴜɴ, ꜱᴛᴏᴄᴋɪɴɢꜱ,
-├・ 💦 ᴛᴇᴀʀꜱ, ʙʀᴇᴀꜱᴛʜᴏʟᴅ,
-├・ 💦 ɴᴇᴄᴋʟᴀᴄᴇ, ꜱᴇᴇᴛʜʀᴏᴜɢʜ,
-├・ 💦 ʙᴜɴɴʏᴇᴀʀꜱ, ʙᴜɴɴʏɢɪʀʟ,
-├・ 💦 ᴛᴏᴘʟᴇꜱꜱ, ʙᴇᴀᴄʜ,
-├・ 💦 ᴇʀᴇᴄᴛɴɪᴘᴘʟᴇꜱ, ʏᴜʀɪ,
-├・ 💦 ᴠᴀᴍᴘɪʀᴇ, ꜱʜɪʀᴛ,
-├・ 💦 ᴘᴀɴᴛʏᴘᴜʟʟ, ᴛᴏʀɴᴄʟᴏᴛʜᴇꜱ,
-├・ 💦 ʙᴏɴᴅᴀɢᴇ, ꜰɪɴɢᴇʀɪɴɢ
-├・ 💦 ʙᴇʟʟ, ꜱʜɪʀᴛʟɪꜰᴛ,
-├・ 💦 ᴛᴀᴛᴛᴏᴏ, ᴄʜᴀɪɴ,
-├・ 💦 ꜰʟᴀᴛᴄʜᴇꜱᴛ 
-├
-╰──────────────────╯\n\n`;
-      }
 
       textHelpMenu += `*🔰  ${botName}  🔰*
- _Powered By:_ *Team ATLAS*
+ _Powered By:_ *Team NOVA*
 
-🎀 To use any of these commands type " *${prefix}Command name* ".
+🐱‍👤 To use any of these commands type " *${prefix}Command name* ".
 
 🏮 To get Support Group link type " *${prefix}support* ".
 
