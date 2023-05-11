@@ -33,12 +33,12 @@ module.exports = {
 
       if (modlistString != "") {
         for (var i = 0; i < modlist.length; i++) {
-          textM += `\n🎀 @${modlist[i].id.split("@")[0]}\n`;
+          textM += `\n🐱‍👤 @${modlist[i].id.split("@")[0]}\n`;
         }
       }
 
       if (modlistString != "" || ownerList.length != 0) {
-        textM += `\n\n📛 *Don't Spam them to avoid Blocking !*\n\n🎀 For any help, type *${prefix}support* and ask in group.\n\n*💫 Thanks for using ${botName}. 💫*\n`;
+        textM += `\n\n📛 *Don't Spam them to avoid Blocking !*\n\n🐱‍👤 For any help, type *${prefix}support* and ask in group.\n\n*💫 Thanks for using ${botName}. 💫*\n`;
       }
 
       return Miku.sendMessage(
