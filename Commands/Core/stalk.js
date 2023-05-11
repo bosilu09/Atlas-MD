@@ -1,6 +1,6 @@
 module.exports = {
   name: "stalk",
-  alias: ["nowa", "stalkwhatsapp", "stalknumber"],
+  alias: ["stalkwhatsapp", "stalknumber"],
   desc: "Search for a whatsapp number in a given range",
   usage: "stalk 9181011564xxx",
   react: "🍁",
